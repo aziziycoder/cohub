@@ -47,14 +47,16 @@ code {
 }
 
 .courses,
-.team {
+.team,
+.location {
     margin-top: 150px;
 }
 
 
 
 .courses .top,
-.team .top {
+.team .top,
+.location .top {
     text-align: center;
     display: flex;
     flex-direction: column;

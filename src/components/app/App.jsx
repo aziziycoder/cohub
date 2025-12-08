@@ -5,6 +5,7 @@ import Heading from '../heading/heading'
 import About from '../about/about'
 import Course from '../courses/course'
 import Team from '../team/team'
+import Location from '../location/location'
 
 import FaCode from "../../assets/icons/code.svg"
 import LuPalette from "../../assets/icons/pallete.svg"
@@ -100,6 +101,7 @@ function App() {
       <About />
       <Course courses={coursesData} />
       <Team team={team}/>
+      <Location />
     </div>
   )
 }
