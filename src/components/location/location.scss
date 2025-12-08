@@ -1,17 +1,6 @@
 .location {
     .bottom {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 32px;
-
-        .right,
-        .left {
-            flex: 1 1 45%;
-            max-width: 45%;
-        }
 
         .left {
             padding: 32px;
