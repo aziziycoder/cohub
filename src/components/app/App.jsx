@@ -7,6 +7,7 @@ import Course from '../courses/course'
 import Team from '../team/team'
 import Location from '../location/location'
 import Contact from '../contact/contact'
+import Footer from "../footer/footer"
 
 import FaCode from "../../assets/icons/code.svg"
 import LuPalette from "../../assets/icons/pallete.svg"
@@ -97,13 +98,16 @@ function App() {
 
   return (
     <div className='app'>
-      <Navbar />
-      <Heading />
-      <About />
-      <Course courses={coursesData} />
-      <Team team={team}/>
-      <Location />
-      <Contact />
+      <div className="main">
+        <Navbar />
+        <Heading />
+        <About />
+        <Course courses={coursesData} />
+        <Team team={team} />
+        <Location />
+        <Contact />
+      </div>
+      <Footer />
     </div>
   )
 }

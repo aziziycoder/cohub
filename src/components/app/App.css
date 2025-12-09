@@ -3,9 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Cascadia Code', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
+    --footer-bg:#0f1a15;
     --background: hsl(155 30% 12%);
     --card-bg: #ffffff1f;
     --primary-dark: hsl(150 70% 35%);
@@ -21,7 +23,7 @@ body {
     background-color: var(--background);
 }
 
-.app {
+.main{
     padding: 0 125px;
 }
 

@@ -4,7 +4,7 @@ import { SlLocationPin } from "react-icons/sl";
 
 const Location = () => {
     return (
-        <div className="location">
+        <div className="location" id="location">
             <div className="top">
                 <h1>Our <code>Location</code></h1>
             </div>

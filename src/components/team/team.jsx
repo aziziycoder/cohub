@@ -2,7 +2,7 @@ import "./team.scss";
 
 const Team = ({ team }) => {
     return (
-        <div className="team">
+        <div className="team" id="team">
             <div className="top">
                 <h1>Meet Our <code>Team</code></h1>
                 <p>Expert instructors dedicated to your success</p>

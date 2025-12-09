@@ -6,7 +6,7 @@ import { IoBookOutline } from "react-icons/io5";
 
 const Course = ({ courses }) => {
     return(
-        <div className="courses">
+        <div className="courses" id="courses">
             <div className="top">
                 <h1>Our <code>Courses</code></h1>
                 <p>Explore our comprehensive range of courses designed to equip you with future-ready skills</p>
