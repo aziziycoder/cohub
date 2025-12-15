@@ -52,3 +52,9 @@ nav {
         }
     }
 }
+
+@media screen and (max-width: 1025px) {
+    nav{
+        width: calc(100% - 150px);
+    }
+}

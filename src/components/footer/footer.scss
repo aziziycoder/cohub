@@ -63,3 +63,9 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 1025px) {
+    footer{
+        padding: 48px 75px;
+    }
+}
