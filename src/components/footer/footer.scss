@@ -4,7 +4,6 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 48px 175px;
-    // gap: 100px;
 
     .left{
         max-width: 350px;
@@ -52,6 +51,15 @@ footer{
             &:hover{
                 color: var(--primary);
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1171px) {
+    footer{
+        .center ul{
+            flex-direction: column;
+            gap: 0;
         }
     }
 }

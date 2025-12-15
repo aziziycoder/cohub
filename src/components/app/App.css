@@ -81,10 +81,18 @@ code {
 
 .courses .bottom,
 .team .bottom {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
     gap: 24px;
     margin-top: 50px;
+    justify-content: center;    
+}
+
+.courses .bottom .card,
+.team .bottom .card{
+    max-width: 384px;
+    min-width: 200px;
 }
 
 .courses .bottom .card:hover,

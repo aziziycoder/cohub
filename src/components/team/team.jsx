@@ -9,7 +9,7 @@ const Team = ({ team }) => {
             </div>
             <div className="bottom">
                 {team.map((member, index) => (
-                    <div className="member glass-bg" key={index}>
+                    <div className="member card glass-bg" key={index}>
                         {member.img && <img src={member.img} alt={member.name} />}
                         <h2>{member.name}</h2>
                         <h3>{member.role}</h3>

@@ -43,3 +43,22 @@ header{
         align-items: center;
     }
 }
+
+
+@media screen and (max-width: 1171px) {
+    header{
+        .left{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h1,p{
+                max-width: 800px;
+            }
+        }
+        .right{
+            display: none;
+        }
+    }
+}

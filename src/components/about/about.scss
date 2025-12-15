@@ -55,3 +55,20 @@
         }
     }
 }
+
+@media screen and (max-width: 1171px) {
+    .about{
+        .container{
+            flex-direction: column;
+            gap: 24px;
+            .left, .right{
+                width: 100%;
+            }
+            .left{
+                h1,p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
