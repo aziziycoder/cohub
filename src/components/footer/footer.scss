@@ -69,3 +69,19 @@ footer{
         padding: 48px 75px;
     }
 }
+
+@media screen and (max-width: 729px) {
+    footer{
+        flex-direction: column;
+        gap: 32px;
+        padding: 40px 40px;
+        .left{ max-width: 100%; }
+        .center ul{ flex-direction: row; flex-wrap: wrap; gap: 12px; }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+        padding: 32px 20px;
+    }
+}

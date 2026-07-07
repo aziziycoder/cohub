@@ -20,12 +20,14 @@
 
     --top-h1: 3rem;
     --p-size: 1rem;
+    --page-pad: 125px;
 }
 
 @media screen and (max-width: 1025px) {
     :root {
         --top-h1: 2.5rem;
         --p-size: 0.875rem;
+        --page-pad: 75px;
     }
 }
 
@@ -34,7 +36,7 @@ body {
 }
 
 .main {
-    padding: 0 125px;
+    padding: 0 var(--page-pad);
 }
 
 li {
@@ -64,8 +66,6 @@ code {
 .contact {
     margin-top: 150px;
 }
-
-
 
 .courses .top,
 .team .top,
@@ -103,15 +103,16 @@ code {
 .team .bottom .card {
     max-width: 384px;
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
 
 .courses .bottom .card:hover,
 .team .bottom .member:hover {
     box-shadow: var(--card-shadow);
     transform: translateY(-10px);
 }
-
 
 .courses .bottom .card:hover .icon {
     transform: scale(1.1);
@@ -124,8 +125,6 @@ code {
     justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
-
-
 }
 
 .location .bottom .right,
@@ -140,15 +139,61 @@ input {
     outline: none;
 }
 
+/* ── Tablet ─────────────────────────────────────────── */
 @media screen and (max-width: 1025px) {
-
     .courses .bottom .card,
     .team .bottom .card {
         max-width: 350px;
         min-width: 200px;
     }
+}
 
-    .main {
-        padding: 0 75px;
+/* ── Small tablet ────────────────────────────────────── */
+@media screen and (max-width: 729px) {
+    :root {
+        --page-pad: 40px;
+    }
+
+    .courses,
+    .team,
+    .location,
+    .contact {
+        margin-top: 100px;
+    }
+}
+
+/* ── Mobile ──────────────────────────────────────────── */
+@media screen and (max-width: 600px) {
+    :root {
+        --page-pad: 20px;
+    }
+
+    .courses,
+    .team,
+    .location,
+    .contact {
+        margin-top: 80px;
+    }
+
+    :root {
+        --top-h1: 2rem;
+        --p-size: 0.8rem;
+    }
+
+    /* Stack location & contact panels vertically */
+    .location .bottom .right,
+    .location .bottom .left,
+    .contact .bottom .left,
+    .contact .bottom .right {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    /* Full-width course/team cards */
+    .courses .bottom .card,
+    .team .bottom .card {
+        max-width: 100%;
+        min-width: unset;
+        width: 100%;
     }
 }

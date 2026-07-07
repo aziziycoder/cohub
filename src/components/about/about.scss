@@ -80,3 +80,12 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .about .container{
+        padding: 24px 20px;
+        .right{
+            grid-template-columns: 1fr;
+        }
+    }
+}

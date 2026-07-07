@@ -50,11 +50,13 @@
 
 .loader svg #clipping {
   filter: contrast(15);
+  color-interpolation-filters: sRGB;
   animation: roundness calc(var(--time-animation) / 2) linear infinite;
 }
 
 .loader svg #clipping polygon {
   filter: blur(7px);
+  color-interpolation-filters: sRGB;
 }
 
 .loader svg #clipping polygon:nth-child(1) {

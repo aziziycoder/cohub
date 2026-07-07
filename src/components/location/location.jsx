@@ -1,8 +1,9 @@
 import "./location.scss";
-
 import { SlLocationPin } from "react-icons/sl";
+import { useLanguage } from "../../context/LanguageContext";
 
 const Location = () => {
+    const { t } = useLanguage();
     return (
         <div className="location" id="location">
             <div className="top">
@@ -14,15 +15,15 @@ const Location = () => {
                     <div className="heading">
                         <div><SlLocationPin /></div>
                         <div>
-                            <h3>Visit Us</h3>
-                            <p>Toshloq District, Uzbekistan</p>
+                            <h3>{t.location.visitUs}</h3>
+                            <p>{t.location.address}</p>
                         </div>
                     </div>
 
                     <div className="info">
-                        <p>Located in the heart of Toshloq district, our modern facility is easily accessible and provides a comfortable learning environment for all students.</p>
+                        <p>{t.location.description}</p>
                         <a href="https://maps.app.goo.gl/PDUhfWADm2WvqnD67" target="_blank">
-                            Get Directions
+                            {t.location.directions}
                         </a>
                     </div>
                 </div>

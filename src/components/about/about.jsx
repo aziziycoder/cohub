@@ -1,32 +1,33 @@
 import "./about.scss"
-
 import { PiStudentFill } from "react-icons/pi";
 import { LuBookOpen } from "react-icons/lu";
 import { FaPercent } from "react-icons/fa";
+import { useLanguage } from "../../context/LanguageContext";
 
 const About = () => {
-    return(
+    const { t } = useLanguage();
+    return (
         <div className="about" id="about">
             <div className="container glass-bg">
                 <div className="left">
                     <h1>About <code>Cohub</code></h1>
-                    <p>Cohub is a modern educational center located in Toshloq district, offering high-quality IT and language courses for both youth and adults. Our mission is to prepare students for future professions by building creativity, practical skills, and strong problem-solving abilities.</p>
+                    <p>{t.about.description}</p>
                 </div>
                 <div className="right">
                     <div className="card">
                         <PiStudentFill className="icon" />
                         <h2>150+</h2>
-                        <p>Enrolled Students</p>
+                        <p>{t.about.students}</p>
                     </div>
                     <div className="card">
                         <LuBookOpen className="icon" />
                         <h2>12</h2>
-                        <p>Available Courses</p>
+                        <p>{t.about.courses}</p>
                     </div>
                     <div className="card">
                         <FaPercent className="icon" />
                         <h2>90%</h2>
-                        <p>Success Rate</p>
+                        <p>{t.about.successRate}</p>
                     </div>
                 </div>
             </div>

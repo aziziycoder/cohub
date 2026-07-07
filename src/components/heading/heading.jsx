@@ -1,17 +1,18 @@
 import "./heading.scss";
-
 import Animation from "../head-animation/animation";
+import { useLanguage } from "../../context/LanguageContext";
 
 const Heading = () => {
-    return(
-        <header>
+    const { t } = useLanguage();
+    return (
+        <header id="home">
             <div className="left">
-                <h1>Cohub – Modern <code>IT & Language</code> Education Center</h1>
-                <p>Learn the skills of the future today.</p>
-                <a href="">Enroll Now</a>
+                <h1>{t.heading.titlePrefix}<code>{t.heading.titleHighlight}</code>{t.heading.titleSuffix}</h1>
+                <p>{t.heading.subtitle}</p>
+                <a href="#contact">{t.heading.cta}</a>
             </div>
             <div className="right">
-                <Animation /> 
+                <Animation />
             </div>
         </header>
     )

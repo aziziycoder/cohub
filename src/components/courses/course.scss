@@ -5,6 +5,11 @@
             padding: 24px;
             transition: all 0.3s ease-in-out;
             
+            .texts{
+                flex: 1;
+                
+            }
+            
             .icon{  
                 transition: all 0.3s ease-in-out;
                 padding: 14px;
@@ -14,6 +19,7 @@
                 background-color: var(--primary);
                 border-radius: 15px;
                 margin-bottom: 16px;
+                align-self: flex-start;
                 img{
                     width: 28px;
                     height: 28px;
