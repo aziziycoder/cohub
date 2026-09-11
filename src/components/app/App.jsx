@@ -11,16 +11,16 @@ import Footer from "../footer/footer"
 
 import FaCode from "../../assets/icons/code.svg"
 import LuPalette from "../../assets/icons/pallete.svg"
-import RiRobot2Line from "../../assets/icons/robot.svg"
 import FaComputer from "../../assets/icons/computer.svg"
 import GrLanguage from "../../assets/icons/language.svg"
 
 import Azizbek from "../../assets/team/azizbek.webp"
+import Saidjon from "../../assets/team/saidjon.jpg"
 
 import { useLanguage } from '../../context/LanguageContext'
 
-const courseIcons = [FaCode, LuPalette, RiRobot2Line, FaComputer, GrLanguage]
-const teamImg = Azizbek
+const courseIcons = [FaCode, LuPalette, FaComputer, GrLanguage]
+const teamImages = [Azizbek, Saidjon]
 
 function App() {
   const { t } = useLanguage()
@@ -30,9 +30,9 @@ function App() {
     icon: courseIcons[i]
   }))
 
-  const team = t.teamData.map((member) => ({
+  const team = t.teamData.map((member, i) => ({
     ...member,
-    img: teamImg
+    img: teamImages[i] || null
   }))
 
   return (

@@ -60,59 +60,58 @@ const translations = {
       {
         title: "Veb Dasturlash",
         description: "Zamonaviy veb texnologiyalarini o'zlashtiring va ajoyib saytlar yarating",
-        duration: "6 oy",
+        duration: "6-8 oy",
         forwho: "Dasturlashga qiziqadigan yoshlar va kattalar",
-        topics: ["HTML, CSS, JavaScript", "React va TypeScript", "Node.js bilan backend", "Ma'lumotlar bazasini boshqarish"]
+        topics: ["HTML, CSS", "JavaScript dasturlash tili", "React Framework"]
       },
       {
         title: "Grafik Dizayn",
         description: "Professional dizayn asboblarini o'rganing va vizual shoh asarlar yarating",
-        duration: "4 oy",
+        duration: "6 oy",
         forwho: "Har qanday yoshdagi ijodiy fikrlovchilar",
         topics: ["Adobe Photoshop va Illustrator", "Tipografiya asoslari", "Brending va identifikatsiya", "Raqamli Illustration"]
       },
       {
-        title: "Robototexnika",
-        description: "Muhandislik asoslarini o'rganib, robotlar yarating va dasturlang",
-        duration: "5 oy",
-        forwho: "10-18 yoshdagi o'quvchilar",
-        topics: ["Asosiy elektronika", "Robot dizayni", "Arduino bilan dasturlash", "Sensorlar va aktuatorlar"]
-      },
-      {
         title: "Kompyuter Savodxonligi",
-        description: "Kompyuter asoslarini o'rganing va raqamli dunyoda ishonch bilan harakat qiling",
+        description: "Kompyuter asoslari, ofis va onlayn vositalar hamda 3D modellashtirishni o'rganing",
         duration: "3 oy",
         forwho: "Barcha yoshdagilar uchun",
-        topics: ["Kompyuterning asosiy tushunchalari", "Ofis dasturlari", "Internet va elektron pochta", "Raqamli xavfsizlik asoslari"]
+        topics: [
+          "Kompyuter savodxonligi",
+          "Microsoft Word, Excel, PowerPoint",
+          "Google Docs, Sheets, Slides",
+          "Canva va Animaker",
+          "Tinkercad 3D dizayn"
+        ]
       },
       {
         title: "Ingliz Tili",
         description: "Ingliz tilini o'rganing va global muloqot ko'nikmalarini rivojlantiring",
-        duration: "4 oy",
-        forwho: "Boshlang'ich va o'rta darajadagi o'rganuvchilar",
-        topics: ["Grammatika asoslari", "So'z boyligini oshirish", "Tinglash va gapirish ko'nikmalari", "Yozma muloqot"]
+        duration: "6 oy",
+        forwho: "Boshlang'ich va o'rta daraja (Beginner – Intermediate)",
+        topics: ["Speaking practice (So'zlashuv)", "Grammar & Vocabulary", "Listening & Reading"]
       }
     ],
     teamData: [
       {
-        name: "Aziza Karimova",
-        role: "Veb Dasturlash Mentori",
-        description: "Zamonaviy veb texnologiyalarida 8+ yillik tajribaga ega full-stack dasturchi"
+        name: "Azizbek G'ulomov",
+        role: "Dasturlash Mentor",
+        description: "Web Dasturlash bo'yicha 3+ yillik tajribaga ega Full-stack dasturchi"
       },
       {
-        name: "Sardor Abdullayev",
+        name: "Saidjon Matruziyev",
         role: "Grafik Dizayn O'qituvchisi",
-        description: "Brending va raqamli illustratsiyaga ixtisoslashgan mukofotli dizayner"
+        description: "Grafik dizayn bo'yicha 2 yillik tajribaga ega o'qituvchi"
       },
       {
-        name: "Dilshod Rakhmonov",
-        role: "Robototexnika Mentori",
-        description: "STEM ta'limini hammabop qilishga ishtiyoqmand robototexnika muhandisi"
+        name: "Azamxonov Aloxon",
+        role: "AKT Pro va Sun'iy Intellekt O'qituvchisi",
+        description: "AKT va AI texnologiyalarini hammabop qilishga ishtiyoqmand mutaxassis"
       },
       {
-        name: "Malika Tursunova",
+        name: "Farzona G'ayratovna",
         role: "Ingliz Tili O'qituvchisi",
-        description: "Bolalar va kattalarni o'qitish tajribasiga ega sertifikatlangan TESOL o'qituvchisi"
+        description: "Tajribali ingliz tili o'qituvchisi (Experienced English Language Teacher)"
       },
       {
         name: "Jasur Nosirovich",
@@ -183,59 +182,58 @@ const translations = {
       {
         title: "Web Development",
         description: "Master modern web technologies and build stunning websites",
-        duration: "6 months",
+        duration: "6-8 months",
         forwho: "Youth and adults interested in coding",
-        topics: ["HTML, CSS, JavaScript", "React & TypeScript", "Backend with Node.js", "Database Management"]
+        topics: ["HTML, CSS", "JavaScript programming language", "React Framework"]
       },
       {
         title: "Graphic Design",
         description: "Learn professional design tools and create visual masterpieces",
-        duration: "4 months",
+        duration: "6 months",
         forwho: "Creative minds of all ages",
         topics: ["Adobe Photoshop & Illustrator", "Typography Basics", "Branding & Identity", "Digital Illustration"]
       },
       {
-        title: "Robotics",
-        description: "Build and program robots while learning engineering fundamentals",
-        duration: "5 months",
-        forwho: "Students aged 10-18",
-        topics: ["Basic Electronics", "Robot Design", "Programming with Arduino", "Sensors & Actuators"]
-      },
-      {
         title: "Computer Literacy",
-        description: "Learn the basics of computers and navigate the digital world with confidence",
+        description: "Learn computer basics, office & online tools, visual design and 3D modeling",
         duration: "3 months",
         forwho: "For all ages",
-        topics: ["Basic Computer Concepts", "Office Applications", "Internet & Email", "Digital Security Basics"]
+        topics: [
+          "Basic Computer Literacy",
+          "Microsoft Word, Excel, PowerPoint",
+          "Google Docs, Sheets, Slides",
+          "Canva & Animaker",
+          "Tinkercad 3D Design"
+        ]
       },
       {
         title: "English Language",
         description: "Learn English and develop global communication skills",
-        duration: "4 months",
-        forwho: "Beginner and intermediate learners",
-        topics: ["Grammar Basics", "Vocabulary Building", "Listening & Speaking Skills", "Written Communication"]
+        duration: "6 months",
+        forwho: "Beginner – Intermediate",
+        topics: ["Speaking practice", "Grammar & Vocabulary", "Listening & Reading"]
       }
     ],
     teamData: [
       {
-        name: "Aziza Karimova",
-        role: "Web Development Mentor",
-        description: "Full-stack developer with 8+ years of experience in modern web technologies"
+        name: "Azizbek G'ulomov",
+        role: "Programming Mentor",
+        description: "Full-stack developer with 3+ years of experience in Web Development"
       },
       {
-        name: "Sardor Abdullayev",
-        role: "Graphic Design Instructor",
-        description: "Award-winning designer specializing in branding and digital illustration"
+        name: "Saidjon Matruziyev",
+        role: "Graphic Design Teacher",
+        description: "Graphic design teacher with 2 years of experience"
       },
       {
-        name: "Dilshod Rakhmonov",
-        role: "Robotics Mentor",
-        description: "Robotics engineer passionate about making STEM education accessible"
+        name: "Aloxon Azamxonov",
+        role: "ICT Pro & AI Instructor",
+        description: "IT specialist passionate about making ICT and AI education accessible"
       },
       {
-        name: "Malika Tursunova",
+        name: "Farzona G'ayratovna",
         role: "English Language Teacher",
-        description: "Certified TESOL instructor with experience teaching children and adults"
+        description: "Experienced English Language Teacher"
       },
       {
         name: "Jasur Nosirovich",
@@ -306,59 +304,58 @@ const translations = {
       {
         title: "Веб-разработка",
         description: "Освойте современные веб-технологии и создавайте удивительные сайты",
-        duration: "6 месяцев",
+        duration: "6-8 месяцев",
         forwho: "Молодёжь и взрослые, интересующиеся программированием",
-        topics: ["HTML, CSS, JavaScript", "React и TypeScript", "Backend с Node.js", "Управление базами данных"]
+        topics: ["HTML, CSS", "Язык программирования JavaScript", "React Framework"]
       },
       {
         title: "Графический дизайн",
         description: "Изучите профессиональные инструменты дизайна и создайте визуальные шедевры",
-        duration: "4 месяца",
+        duration: "6 месяцев",
         forwho: "Творческие люди всех возрастов",
         topics: ["Adobe Photoshop и Illustrator", "Основы типографики", "Брендинг и айдентика", "Цифровая иллюстрация"]
       },
       {
-        title: "Робототехника",
-        description: "Создавайте и программируйте роботов, изучая основы инженерии",
-        duration: "5 месяцев",
-        forwho: "Учащиеся в возрасте 10-18 лет",
-        topics: ["Основы электроники", "Конструирование роботов", "Программирование с Arduino", "Датчики и приводы"]
-      },
-      {
         title: "Компьютерная грамотность",
-        description: "Изучите основы компьютера и уверенно ориентируйтесь в цифровом мире",
+        description: "Изучите основы компьютера, офисные и онлайн-инструменты, а также 3D-моделирование",
         duration: "3 месяца",
         forwho: "Для всех возрастов",
-        topics: ["Основные понятия о компьютере", "Офисные приложения", "Интернет и электронная почта", "Основы цифровой безопасности"]
+        topics: [
+          "Компьютерная грамотность",
+          "Microsoft Word, Excel, PowerPoint",
+          "Google Docs, Sheets, Slides",
+          "Canva и Animaker",
+          "3D-моделирование в Tinkercad"
+        ]
       },
       {
         title: "Английский язык",
         description: "Изучайте английский и развивайте навыки глобального общения",
-        duration: "4 месяца",
-        forwho: "Начинающие и промежуточные учащиеся",
-        topics: ["Основы грамматики", "Пополнение словарного запаса", "Навыки аудирования и разговора", "Письменное общение"]
+        duration: "6 месяцев",
+        forwho: "Начинающий – Средний уровень (Beginner – Intermediate)",
+        topics: ["Разговорная практика (Speaking practice)", "Грамматика и словарный запас (Grammar & Vocabulary)", "Аудирование и чтение (Listening & Reading)"]
       }
     ],
     teamData: [
       {
-        name: "Aziza Karimova",
-        role: "Ментор по веб-разработке",
-        description: "Full-stack разработчик с 8+ летним опытом работы с современными веб-технологиями"
+        name: "Azizbek G'ulomov",
+        role: "Ментор по программированию",
+        description: "Full-stack разработчик с 3+ летним опытом в веб-разработке"
       },
       {
-        name: "Sardor Abdullayev",
-        role: "Инструктор по графическому дизайну",
-        description: "Отмеченный наградами дизайнер, специализирующийся на брендинге и цифровой иллюстрации"
+        name: "Saidjon Matruziyev",
+        role: "Преподаватель графического дизайна",
+        description: "Преподаватель графического дизайна с 2-летним опытом"
       },
       {
-        name: "Dilshod Rakhmonov",
-        role: "Ментор по робототехнике",
-        description: "Инженер-робототехник, увлечённый доступностью STEM-образования"
+        name: "Алохон Азамхонов",
+        role: "Преподаватель ИКТ и ИИ",
+        description: "Специалист, увлечённый доступностью ИКТ и искусственного интеллекта"
       },
       {
-        name: "Malika Tursunova",
+        name: "Farzona G'ayratovna",
         role: "Преподаватель английского языка",
-        description: "Сертифицированный преподаватель TESOL с опытом обучения детей и взрослых"
+        description: "Опытный преподаватель английского языка (Experienced English Language Teacher)"
       },
       {
         name: "Jasur Nosirovich",
