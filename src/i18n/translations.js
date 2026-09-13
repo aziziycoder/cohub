@@ -112,11 +112,6 @@ const translations = {
         name: "Farzona G'ayratovna",
         role: "Ingliz Tili O'qituvchisi",
         description: "Tajribali ingliz tili o'qituvchisi (Experienced English Language Teacher)"
-      },
-      {
-        name: "Jasur Nosirovich",
-        role: "Kompyuter Savodxonligi Murabbiy",
-        description: "O'qish va yozish ko'nikmalariga e'tibor qaratuvchi ta'lim mutaxassisi"
       }
     ]
   },
@@ -234,11 +229,6 @@ const translations = {
         name: "Farzona G'ayratovna",
         role: "English Language Teacher",
         description: "Experienced English Language Teacher"
-      },
-      {
-        name: "Jasur Nosirovich",
-        role: "Literacy Coach",
-        description: "Education specialist focused on reading comprehension and writing skills"
       }
     ]
   },
@@ -356,11 +346,6 @@ const translations = {
         name: "Farzona G'ayratovna",
         role: "Преподаватель английского языка",
         description: "Опытный преподаватель английского языка (Experienced English Language Teacher)"
-      },
-      {
-        name: "Jasur Nosirovich",
-        role: "Тренер по грамотности",
-        description: "Специалист в области образования, сфокусированный на навыках чтения и письма"
       }
     ]
   }
