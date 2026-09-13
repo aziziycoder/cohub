@@ -16,11 +16,12 @@ import GrLanguage from "../../assets/icons/language.svg"
 
 import Azizbek from "../../assets/team/azizbek.webp"
 import Saidjon from "../../assets/team/saidjon.jpg"
+import Aloxon from "../../assets/team/aloxon.png"
 
 import { useLanguage } from '../../context/LanguageContext'
 
 const courseIcons = [FaCode, LuPalette, FaComputer, GrLanguage]
-const teamImages = [Azizbek, Saidjon]
+const teamImages = [Azizbek, Saidjon, Aloxon]
 
 function App() {
   const { t } = useLanguage()
