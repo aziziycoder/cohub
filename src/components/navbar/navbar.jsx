@@ -35,7 +35,7 @@ const Navbar = () => {
                         <li><a href="#courses" onClick={(e) => handleScroll(e, "courses")}>{t.nav.courses}</a></li>
                         <li><a href="#team" onClick={(e) => handleScroll(e, "team")}>{t.nav.team}</a></li>
                         <li><a href="#contact" onClick={(e) => handleScroll(e, "contact")}>{t.nav.contact}</a></li>
-                        <li><a href="#contact" onClick={(e) => handleScroll(e, "contact")}>{t.nav.enroll}</a></li>
+                        <li><a href="https://forms.gle/eeuCWneQHodctjNg9" target="_blank" rel="noopener noreferrer">{t.nav.enroll}</a></li>
                     </ul>
 
                     <div className="lang-switcher">
@@ -71,7 +71,7 @@ const Navbar = () => {
                         <li><a href="#courses" onClick={(e) => handleScroll(e, "courses")}>{t.nav.courses}</a></li>
                         <li><a href="#team" onClick={(e) => handleScroll(e, "team")}>{t.nav.team}</a></li>
                         <li><a href="#contact" onClick={(e) => handleScroll(e, "contact")}>{t.nav.contact}</a></li>
-                        <li className="enroll-mobile"><a href="#contact" onClick={(e) => handleScroll(e, "contact")}>{t.nav.enroll}</a></li>
+                        <li className="enroll-mobile"><a href="https://forms.gle/eeuCWneQHodctjNg9" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>{t.nav.enroll}</a></li>
                     </ul>
                     <div className="lang-switcher-mobile">
                         {languages.map((l) => (

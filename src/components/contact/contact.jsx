@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div className="right glass-bg">
                     <h2>{t.contact.quickEnroll}</h2>
-                    <form action="">
+                    <form onSubmit={(e) => { e.preventDefault(); window.open("https://forms.gle/eeuCWneQHodctjNg9", "_blank"); }}>
                         <div>
                             <label htmlFor="name">{t.contact.fullName}</label>
                             <input type="text" id="name" placeholder={t.contact.namePlaceholder} />

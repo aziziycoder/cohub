@@ -9,7 +9,7 @@ const Heading = () => {
             <div className="left">
                 <h1>{t.heading.titlePrefix}<code>{t.heading.titleHighlight}</code>{t.heading.titleSuffix}</h1>
                 <p>{t.heading.subtitle}</p>
-                <a href="#contact">{t.heading.cta}</a>
+                <a href="https://forms.gle/eeuCWneQHodctjNg9" target="_blank" rel="noopener noreferrer">{t.heading.cta}</a>
             </div>
             <div className="right">
                 <Animation />

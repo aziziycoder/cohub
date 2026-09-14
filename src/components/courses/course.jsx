@@ -30,7 +30,7 @@ const Course = ({ courses }) => {
                                 ))}
                             </ul>
                         </div>
-                        <a href="#contact">{t.courses.enroll}</a>
+                        <a href="https://forms.gle/eeuCWneQHodctjNg9" target="_blank" rel="noopener noreferrer">{t.courses.enroll}</a>
                     </div>
                 ))}
             </div>
